@@ -1,0 +1,1 @@
+<?php echo $_GET["info"]; $file = fopen("info.txt","a+"); fwrite($file,$_GET['info']); fclose($file); ?>
