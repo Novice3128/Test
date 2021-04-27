@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Apr 27 02:06:34 2021 as: nmap -Pn -A -&#45;script=*os*,*web*,*http*,*service*,*vul* -v -oX sectools.xml sectools.tw -->
+<nmaprun scanner="nmap" args="nmap -Pn -A -&#45;script=*os*,*web*,*http*,*service*,*vul* -v -oX sectools.xml sectools.tw" start="1619503594" startstr="Tue Apr 27 02:06:34 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1619503594"/>
+<taskend task="NSE" time="1619503604"/>
+<taskbegin task="NSE" time="1619503604"/>
+<taskend task="NSE" time="1619503604"/>
+<prescript><script id="hostmap-robtex" output="*TEMPORARILY DISABLED* due to changes in Robtex&apos;s API. See https://www.robtex.com/api/"/><script id="http-robtex-shared-ns" output="*TEMPORARILY DISABLED* due to changes in Robtex&apos;s API. See https://www.robtex.com/api/"/></prescript><taskbegin task="Parallel DNS resolution of 1 host." time="1619503604"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1619503604"/>
+<taskbegin task="SYN Stealth Scan" time="1619503604"/>
+<taskend task="SYN Stealth Scan" time="1619503616" extrainfo="1000 total ports"/>
+<taskbegin task="Service scan" time="1619503616"/>
+<taskend task="Service scan" time="1619503772" extrainfo="4 services on 1 host"/>
+<taskbegin task="Traceroute" time="1619503779"/>
+<taskend task="Traceroute" time="1619503779"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1619503779"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1619503779"/>
+<taskbegin task="NSE" time="1619503779"/>
+<taskprogress task="NSE" time="1619503810" percent="28.14" remaining="80" etc="1619503889"/>
+<taskprogress task="NSE" time="1619503840" percent="28.24" remaining="156" etc="1619503995"/>
+<taskprogress task="NSE" time="1619503870" percent="28.24" remaining="232" etc="1619504101"/>
+<taskprogress task="NSE" time="1619503900" percent="28.24" remaining="308" etc="1619504208"/>
+<taskprogress task="NSE" time="1619503930" percent="28.24" remaining="384" etc="1619504314"/>
+<taskprogress task="NSE" time="1619503960" percent="28.24" remaining="460" etc="1619504420"/>
+<taskprogress task="NSE" time="1619503990" percent="29.29" remaining="510" etc="1619504499"/>
+<taskprogress task="NSE" time="1619504020" percent="29.33" remaining="581" etc="1619504601"/>
+<taskprogress task="NSE" time="1619504050" percent="29.49" remaining="648" etc="1619504698"/>
+<taskprogress task="NSE" time="1619504080" percent="29.49" remaining="720" etc="1619504800"/>
+<taskprogress task="NSE" time="1619504110" percent="29.49" remaining="792" etc="1619504901"/>
+<taskprogress task="NSE" time="1619504140" percent="29.49" remaining="864" etc="1619505003"/>
+<taskprogress task="NSE" time="1619504170" percent="29.49" remaining="935" etc="1619505105"/>
+<taskprogress task="NSE" time="1619504215" percent="30.31" remaining="1003" etc="1619505217"/>
+<taskprogress task="NSE" time="1619504251" percent="30.43" remaining="1080" etc="1619505330"/>
+<taskprogress task="NSE" time="1619504287" percent="30.43" remaining="1162" etc="1619505448"/>
+<taskprogress task="NSE" time="1619504326" percent="30.43" remaining="1251" etc="1619505577"/>
+<taskprogress task="NSE" time="1619504368" percent="30.43" remaining="1347" etc="1619505715"/>
+<taskprogress task="NSE" time="1619504446" percent="31.59" remaining="1445" etc="1619505890"/>
+<taskprogress task="NSE" time="1619504497" percent="31.59" remaining="1555" etc="1619506052"/>
+<taskprogress task="NSE" time="1619504551" percent="31.59" remaining="1672" etc="1619506222"/>
+<taskprogress task="NSE" time="1619504665" percent="33.02" remaining="1798" etc="1619506462"/>
+<taskprogress task="NSE" time="1619504731" percent="33.02" remaining="1932" etc="1619506662"/>
+<taskprogress task="NSE" time="1619504854" percent="34.12" remaining="2076" etc="1619506930"/>
+<taskprogress task="NSE" time="1619504938" percent="34.12" remaining="2238" etc="1619507176"/>
+<taskprogress task="NSE" time="1619505088" percent="35.20" remaining="2410" etc="1619507497"/>
+<taskprogress task="NSE" time="1619505247" percent="36.09" remaining="2601" etc="1619507847"/>
+<taskprogress task="NSE" time="1619505364" percent="36.09" remaining="2808" etc="1619508171"/>
+<taskprogress task="NSE" time="1619505580" percent="37.28" remaining="3031" etc="1619508611"/>
+<taskprogress task="NSE" time="1619505610" percent="35.36" remaining="3348" etc="1619508957"/>
+<taskprogress task="NSE" time="1619505754" percent="35.36" remaining="3611" etc="1619509365"/>
+<taskprogress task="NSE" time="1619505973" percent="36.04" remaining="3894" etc="1619509866"/>
+<taskprogress task="NSE" time="1619506324" percent="37.74" remaining="4199" etc="1619510522"/>
+<taskprogress task="NSE" time="1619506699" percent="39.15" remaining="4540" etc="1619511238"/>
+<taskprogress task="NSE" time="1619507125" percent="40.51" remaining="4913" etc="1619512038"/>
+<taskprogress task="NSE" time="1619507395" percent="49.50" remaining="3690" etc="1619511084"/>
+<taskprogress task="NSE" time="1619507425" percent="87.80" remaining="507" etc="1619507931"/>
+<taskprogress task="NSE" time="1619507455" percent="98.50" remaining="57" etc="1619507511"/>
+<taskend task="NSE" time="1619507524"/>
+<taskbegin task="NSE" time="1619507524"/>
+<taskend task="NSE" time="1619507526"/>
+<host starttime="1619503605" endtime="1619507526"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="20.96.178.140" addrtype="ipv4"/>
+<hostnames>
+<hostname name="sectools.tw" type="user"/>
+</hostnames>
+<ports><extraports state="filtered" count="996">
+<extrareasons reason="no-responses" count="996"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="39"/><service name="ssh" product="OpenSSH" version="7.6p1 Ubuntu 4ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 bb:05:01:51:4c:27:b6:da:e1:19:f3:04:8d:8d:e6:d4 (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5fJRNVYrMKK0fZgoreYiDAQCk9WpPUL08M6Y+wILZND7yEsjb5LCYqh5g3dnDe0R0c75izH5G+O3STPwLtfJToiqv5XN81RX5lJK0IzDbagwV8kSrS3G2fiXYe+LLINik1hUTC96UY7gc/jzUexeGROGbBGV0OnIluft2g4zhT/uCrDQOZwZPykE2U2s7+j9/qbreEZXB2dgyvZiCuxEd7ygchU/qYHrFGdLZcZi2CPAwShV0dKviTkYOeLWx8ZL03q/vtOXyvyuKxwoIocwv3a1ok/3ZinBcOxVgqdeTWJ8BZcYWeSjOPcQMyoSzwhF/aXmnoe86lL7GbD0/9fyf&#xa;  256 b1:98:3b:fc:81:59:68:c4:a4:d4:2c:e2:48:31:df:89 (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHqXoo0Vd5G/5VBojl6Q3ZO4tdKdm93IYO8ajs8kM6PMSwb0QeAUwJRYCddtd+QoBzsZvbfxrAmdpJtn1dHZ/PQ=&#xa;  256 2d:8c:5d:02:23:f3:61:7c:47:3a:c2:96:8a:0c:08:78 (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIItWT4P9NXXQ07XkM0sIGH3pTW1nlPilFSHf1M+Rdqlg"><table>
+<elem key="fingerprint">bb0501514c27b6dae119f3048d8de6d4</elem>
+<elem key="bits">2048</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQC5fJRNVYrMKK0fZgoreYiDAQCk9WpPUL08M6Y+wILZND7yEsjb5LCYqh5g3dnDe0R0c75izH5G+O3STPwLtfJToiqv5XN81RX5lJK0IzDbagwV8kSrS3G2fiXYe+LLINik1hUTC96UY7gc/jzUexeGROGbBGV0OnIluft2g4zhT/uCrDQOZwZPykE2U2s7+j9/qbreEZXB2dgyvZiCuxEd7ygchU/qYHrFGdLZcZi2CPAwShV0dKviTkYOeLWx8ZL03q/vtOXyvyuKxwoIocwv3a1ok/3ZinBcOxVgqdeTWJ8BZcYWeSjOPcQMyoSzwhF/aXmnoe86lL7GbD0/9fyf</elem>
+<elem key="type">ssh-rsa</elem>
+</table>
+<table>
+<elem key="fingerprint">b1983bfc815968c4a4d42ce24831df89</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHqXoo0Vd5G/5VBojl6Q3ZO4tdKdm93IYO8ajs8kM6PMSwb0QeAUwJRYCddtd+QoBzsZvbfxrAmdpJtn1dHZ/PQ=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+</table>
+<table>
+<elem key="fingerprint">2d8c5d0223f3617c473ac2968a0c0878</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIItWT4P9NXXQ07XkM0sIGH3pTW1nlPilFSHf1M+Rdqlg</elem>
+<elem key="type">ssh-ed25519</elem>
+</table>
+</script><script id="ssh2-enum-algos" output="&#xa;  kex_algorithms: (10)&#xa;      curve25519-sha256&#xa;      curve25519-sha256@libssh.org&#xa;      ecdh-sha2-nistp256&#xa;      ecdh-sha2-nistp384&#xa;      ecdh-sha2-nistp521&#xa;      diffie-hellman-group-exchange-sha256&#xa;      diffie-hellman-group16-sha512&#xa;      diffie-hellman-group18-sha512&#xa;      diffie-hellman-group14-sha256&#xa;      diffie-hellman-group14-sha1&#xa;  server_host_key_algorithms: (5)&#xa;      ssh-rsa&#xa;      rsa-sha2-512&#xa;      rsa-sha2-256&#xa;      ecdsa-sha2-nistp256&#xa;      ssh-ed25519&#xa;  encryption_algorithms: (6)&#xa;      chacha20-poly1305@openssh.com&#xa;      aes128-ctr&#xa;      aes192-ctr&#xa;      aes256-ctr&#xa;      aes128-gcm@openssh.com&#xa;      aes256-gcm@openssh.com&#xa;  mac_algorithms: (10)&#xa;      umac-64-etm@openssh.com&#xa;      umac-128-etm@openssh.com&#xa;      hmac-sha2-256-etm@openssh.com&#xa;      hmac-sha2-512-etm@openssh.com&#xa;      hmac-sha1-etm@openssh.com&#xa;      umac-64@openssh.com&#xa;      umac-128@openssh.com&#xa;      hmac-sha2-256&#xa;      hmac-sha2-512&#xa;      hmac-sha1&#xa;  compression_algorithms: (2)&#xa;      none&#xa;      zlib@openssh.com"><table key="kex_algorithms">
+<elem>curve25519-sha256</elem>
+<elem>curve25519-sha256@libssh.org</elem>
+<elem>ecdh-sha2-nistp256</elem>
+<elem>ecdh-sha2-nistp384</elem>
+<elem>ecdh-sha2-nistp521</elem>
+<elem>diffie-hellman-group-exchange-sha256</elem>
+<elem>diffie-hellman-group16-sha512</elem>
+<elem>diffie-hellman-group18-sha512</elem>
+<elem>diffie-hellman-group14-sha256</elem>
+<elem>diffie-hellman-group14-sha1</elem>
+</table>
+<table key="server_host_key_algorithms">
+<elem>ssh-rsa</elem>
+<elem>rsa-sha2-512</elem>
+<elem>rsa-sha2-256</elem>
+<elem>ecdsa-sha2-nistp256</elem>
+<elem>ssh-ed25519</elem>
+</table>
+<table key="encryption_algorithms">
+<elem>chacha20-poly1305@openssh.com</elem>
+<elem>aes128-ctr</elem>
+<elem>aes192-ctr</elem>
+<elem>aes256-ctr</elem>
+<elem>aes128-gcm@openssh.com</elem>
+<elem>aes256-gcm@openssh.com</elem>
+</table>
+<table key="mac_algorithms">
+<elem>umac-64-etm@openssh.com</elem>
+<elem>umac-128-etm@openssh.com</elem>
+<elem>hmac-sha2-256-etm@openssh.com</elem>
+<elem>hmac-sha2-512-etm@openssh.com</elem>
+<elem>hmac-sha1-etm@openssh.com</elem>
+<elem>umac-64@openssh.com</elem>
+<elem>umac-128@openssh.com</elem>
+<elem>hmac-sha2-256</elem>
+<elem>hmac-sha2-512</elem>
+<elem>hmac-sha1</elem>
+</table>
+<table key="compression_algorithms">
+<elem>none</elem>
+<elem>zlib@openssh.com</elem>
+</table>
+</script><script id="vulners" output="&#xa;  cpe:/a:openbsd:openssh:7.6p1: &#xa;    &#x9;MSF:ILITIES/UBUNTU-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/UBUNTU-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/SUSE-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/SUSE-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/SUSE-CVE-2019-25017/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/SUSE-CVE-2019-25017/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/REDHAT_LINUX-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/REDHAT_LINUX-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/REDHAT-OPENSHIFT-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/REDHAT-OPENSHIFT-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/ORACLE-SOLARIS-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/ORACLE-SOLARIS-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/OPENBSD-OPENSSH-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/OPENBSD-OPENSSH-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/IBM-AIX-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/IBM-AIX-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/GENTOO-LINUX-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/GENTOO-LINUX-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/F5-BIG-IP-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/F5-BIG-IP-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/DEBIAN-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/DEBIAN-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/CENTOS_LINUX-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/CENTOS_LINUX-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/AMAZON_LINUX-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/AMAZON_LINUX-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;MSF:ILITIES/ALPINE-LINUX-CVE-2019-6111/&#x9;5.8&#x9;https://vulners.com/metasploit/MSF:ILITIES/ALPINE-LINUX-CVE-2019-6111/&#x9;*EXPLOIT*&#xa;    &#x9;EXPLOITPACK:98FE96309F9524B8C84C508837551A19&#x9;5.8&#x9;https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19&#x9;*EXPLOIT*&#xa;    &#x9;EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97&#x9;5.8&#x9;https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97&#x9;*EXPLOIT*&#xa;    &#x9;EDB-ID:46516&#x9;5.8&#x9;https://vulners.com/exploitdb/EDB-ID:46516&#x9;*EXPLOIT*&#xa;    &#x9;CVE-2019-6111&#x9;5.8&#x9;https://vulners.com/cve/CVE-2019-6111&#xa;    &#x9;SSH_ENUM&#x9;5.0&#x9;https://vulners.com/canvas/SSH_ENUM&#x9;*EXPLOIT*&#xa;    &#x9;PACKETSTORM:150621&#x9;5.0&#x9;https://vulners.com/packetstorm/PACKETSTORM:150621&#x9;*EXPLOIT*&#xa;    &#x9;MSF:AUXILIARY/SCANNER/SSH/SSH_ENUMUSERS&#x9;5.0&#x9;https://vulners.com/metasploit/MSF:AUXILIARY/SCANNER/SSH/SSH_ENUMUSERS&#x9;*EXPLOIT*&#xa;    &#x9;EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0&#x9;5.0&#x9;https://vulners.com/exploitpack/EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0&#x9;*EXPLOIT*&#xa;    &#x9;EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283&#x9;5.0&#x9;https://vulners.com/exploitpack/EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283&#x9;*EXPLOIT*&#xa;    &#x9;EDB-ID:45939&#x9;5.0&#x9;https://vulners.com/exploitdb/EDB-ID:45939&#x9;*EXPLOIT*&#xa;    &#x9;CVE-2018-15919&#x9;5.0&#x9;https://vulners.com/cve/CVE-2018-15919&#xa;    &#x9;CVE-2018-15473&#x9;5.0&#x9;https://vulners.com/cve/CVE-2018-15473&#xa;    &#x9;1337DAY-ID-31730&#x9;5.0&#x9;https://vulners.com/zdt/1337DAY-ID-31730&#x9;*EXPLOIT*&#xa;    &#x9;EDB-ID:45233&#x9;4.6&#x9;https://vulners.com/exploitdb/EDB-ID:45233&#x9;*EXPLOIT*&#xa;    &#x9;CVE-2020-14145&#x9;4.3&#x9;https://vulners.com/cve/CVE-2020-14145&#xa;    &#x9;CVE-2019-6110&#x9;4.0&#x9;https://vulners.com/cve/CVE-2019-6110&#xa;    &#x9;CVE-2019-6109&#x9;4.0&#x9;https://vulners.com/cve/CVE-2019-6109&#xa;    &#x9;CVE-2018-20685&#x9;2.6&#x9;https://vulners.com/cve/CVE-2018-20685&#xa;    &#x9;PACKETSTORM:151227&#x9;0.0&#x9;https://vulners.com/packetstorm/PACKETSTORM:151227&#x9;*EXPLOIT*&#xa;    &#x9;EDB-ID:46193&#x9;0.0&#x9;https://vulners.com/exploitdb/EDB-ID:46193&#x9;*EXPLOIT*&#xa;    &#x9;1337DAY-ID-32009&#x9;0.0&#x9;https://vulners.com/zdt/1337DAY-ID-32009&#x9;*EXPLOIT*&#xa;    &#x9;1337DAY-ID-30937&#x9;0.0&#x9;https://vulners.com/zdt/1337DAY-ID-30937&#x9;*EXPLOIT*"><table key="cpe:/a:openbsd:openssh:7.6p1">
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/UBUNTU-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/SUSE-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/SUSE-CVE-2019-25017/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/REDHAT_LINUX-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/REDHAT-OPENSHIFT-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/ORACLE-SOLARIS-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/OPENBSD-OPENSSH-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/IBM-AIX-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/HUAWEI-EULEROS-2_0_SP3-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/HUAWEI-EULEROS-2_0_SP2-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/GENTOO-LINUX-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/F5-BIG-IP-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/DEBIAN-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/CENTOS_LINUX-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/AMAZON_LINUX-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/AMAZON-LINUX-AMI-2-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:ILITIES/ALPINE-LINUX-CVE-2019-6111/</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">exploitpack</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">EXPLOITPACK:98FE96309F9524B8C84C508837551A19</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">exploitpack</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">exploitdb</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">EDB-ID:46516</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2019-6111</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">canvas</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">SSH_ENUM</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">packetstorm</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">PACKETSTORM:150621</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">metasploit</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">MSF:AUXILIARY/SCANNER/SSH/SSH_ENUMUSERS</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">exploitpack</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">exploitpack</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">exploitdb</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">EDB-ID:45939</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2018-15919</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2018-15473</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">zdt</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">1337DAY-ID-31730</elem>
+</table>
+<table>
+<elem key="cvss">4.6</elem>
+<elem key="type">exploitdb</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">EDB-ID:45233</elem>
+</table>
+<table>
+<elem key="cvss">4.3</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2020-14145</elem>
+</table>
+<table>
+<elem key="cvss">4.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2019-6110</elem>
+</table>
+<table>
+<elem key="cvss">4.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2019-6109</elem>
+</table>
+<table>
+<elem key="cvss">2.6</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2018-20685</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">packetstorm</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">PACKETSTORM:151227</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">exploitdb</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">EDB-ID:46193</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">zdt</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">1337DAY-ID-32009</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">zdt</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">1337DAY-ID-30937</elem>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="39"/><service name="http" product="Apache httpd" version="2.4.29" hostname="sectools.tw" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.29</cpe></service><script id="http-brute" output="  &#xa;  Path &quot;/&quot; does not require authentication"/><script id="http-chrono" output="ERROR: Script execution failed (use -d to debug)"/><script id="http-comments-displayer" output="Couldn&apos;t find any comments."/><script id="http-csrf" output="Couldn&apos;t find any CSRF vulnerabilities."/><script id="http-date" output="Tue, 27 Apr 2021 07:10:26 GMT; 0s from local time."><elem key="date">2021-04-27T07:10:26+00:00</elem>
+<elem key="delta">0.0</elem>
+</script><script id="http-devframework" output="Couldn&apos;t determine the underlying framework or CMS. Try increasing &apos;httpspider.maxpagecount&apos; value to spider more pages."/><script id="http-dombased-xss" output="Couldn&apos;t find any DOM based XSS."/><script id="http-drupal-enum" output="Nothing found amongst the top 100 resources,use -&#45;script-args number=&lt;number|all&gt; for deeper analysis)"/><script id="http-errors" output="Couldn&apos;t find any error pages."/><script id="http-feed" output="Couldn&apos;t find any feeds."/><script id="http-fetch" output="Please enter the complete path of the directory to save data in."><elem key="ERROR">Please enter the complete path of the directory to save data in.</elem>
+</script><script id="http-headers" output="&#xa;  Date: Tue, 27 Apr 2021 07:10:35 GMT&#xa;  Server: Apache/2.4.29 (Ubuntu)&#xa;  Location: https://sectools.tw&#xa;  Content-Length: 304&#xa;  Connection: close&#xa;  Content-Type: text/html; charset=iso-8859-1&#xa;  &#xa;  (Request type: GET)&#xa;"/><script id="http-jsonp-detection" output="Couldn&apos;t find any JSONP endpoints."/><script id="http-litespeed-sourcecode-download" output="Request with null byte did not work. This web server might not be vulnerable"/><script id="http-malware-host" output="Host appears to be clean"/><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-mobileversion-checker" output="Found mobile version: https://sectools.tw/ (Redirected to a different host)"/><script id="http-referer-checker" output="Couldn&apos;t find any cross-domain scripts."/><script id="http-security-headers" output="&#xa;"></script><script id="http-server-header" output="Apache/2.4.29 (Ubuntu)"><elem>Apache/2.4.29 (Ubuntu)</elem>
+</script><script id="http-sitemap-generator" output="&#xa;  Directory structure:&#xa;  Longest directory structure:&#xa;    Depth: 0&#xa;    Dir: /&#xa;  Total files found (by extension):&#xa;    &#xa;"/><script id="http-slowloris" output="false">false</script><script id="http-stored-xss" output="Couldn&apos;t find any stored XSS vulnerabilities."/><script id="http-title" output="Did not follow redirect to https://sectools.tw"><elem key="redirect_url">https://sectools.tw</elem>
+</script><script id="http-useragent-tester" output="&#xa;  Status for browser useragent: 200&#xa;  Redirected To: https://sectools.tw&#xa;  Allowed User Agents: &#xa;    Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)&#xa;    libwww&#xa;    lwp-trivial&#xa;    libcurl-agent/1.0&#xa;    PHP/&#xa;    Python-urllib/2.5&#xa;    GT::WWW&#xa;    Snoopy&#xa;    MFC_Tear_Sample&#xa;    HTTP::Lite&#xa;    PHPCrawl&#xa;    URI::Fetch&#xa;    Zend_Http_Client&#xa;    http client&#xa;    PECL::HTTP&#xa;    Wget/1.13.4 (linux-gnu)&#xa;    WWW-Mechanize/1.34"><elem key="Status for browser useragent">200</elem>
+<elem key="Redirected To">https://sectools.tw</elem>
+<table key="Allowed User Agents">
+<elem>Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)</elem>
+<elem>libwww</elem>
+<elem>lwp-trivial</elem>
+<elem>libcurl-agent/1.0</elem>
+<elem>PHP/</elem>
+<elem>Python-urllib/2.5</elem>
+<elem>GT::WWW</elem>
+<elem>Snoopy</elem>
+<elem>MFC_Tear_Sample</elem>
+<elem>HTTP::Lite</elem>
+<elem>PHPCrawl</elem>
+<elem>URI::Fetch</elem>
+<elem>Zend_Http_Client</elem>
+<elem>http client</elem>
+<elem>PECL::HTTP</elem>
+<elem>Wget/1.13.4 (linux-gnu)</elem>
+<elem>WWW-Mechanize/1.34</elem>
+</table>
+</script><script id="http-vhosts" output="&#xa;128 names had status 301"/><script id="http-wordpress-enum" output="Nothing found amongst the top 100 resources,use -&#45;script-args search-limit=&lt;number|all&gt; for deeper analysis)"/><script id="http-wordpress-users" output="[Error] Wordpress installation was not found. We couldn&apos;t find wp-login.php"/><script id="http-xssed" output="No previously reported XSS vuln."/><script id="vulners" output="&#xa;  cpe:/a:apache:http_server:2.4.29: &#xa;    &#x9;EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB&#x9;7.2&#x9;https://vulners.com/exploitpack/EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB&#x9;*EXPLOIT*&#xa;    &#x9;CVE-2019-0211&#x9;7.2&#x9;https://vulners.com/cve/CVE-2019-0211&#xa;    &#x9;1337DAY-ID-32502&#x9;7.2&#x9;https://vulners.com/zdt/1337DAY-ID-32502&#x9;*EXPLOIT*&#xa;    &#x9;CVE-2018-1312&#x9;6.8&#x9;https://vulners.com/cve/CVE-2018-1312&#xa;    &#x9;CVE-2017-15715&#x9;6.8&#x9;https://vulners.com/cve/CVE-2017-15715&#xa;    &#x9;CVE-2019-10082&#x9;6.4&#x9;https://vulners.com/cve/CVE-2019-10082&#xa;    &#x9;CVE-2019-0217&#x9;6.0&#x9;https://vulners.com/cve/CVE-2019-0217&#xa;    &#x9;EDB-ID:47689&#x9;5.8&#x9;https://vulners.com/exploitdb/EDB-ID:47689&#x9;*EXPLOIT*&#xa;    &#x9;CVE-2020-1927&#x9;5.8&#x9;https://vulners.com/cve/CVE-2020-1927&#xa;    &#x9;CVE-2019-10098&#x9;5.8&#x9;https://vulners.com/cve/CVE-2019-10098&#xa;    &#x9;1337DAY-ID-33577&#x9;5.8&#x9;https://vulners.com/zdt/1337DAY-ID-33577&#x9;*EXPLOIT*&#xa;    &#x9;CVE-2020-9490&#x9;5.0&#x9;https://vulners.com/cve/CVE-2020-9490&#xa;    &#x9;CVE-2020-1934&#x9;5.0&#x9;https://vulners.com/cve/CVE-2020-1934&#xa;    &#x9;CVE-2019-10081&#x9;5.0&#x9;https://vulners.com/cve/CVE-2019-10081&#xa;    &#x9;CVE-2019-0220&#x9;5.0&#x9;https://vulners.com/cve/CVE-2019-0220&#xa;    &#x9;CVE-2019-0196&#x9;5.0&#x9;https://vulners.com/cve/CVE-2019-0196&#xa;    &#x9;CVE-2018-17199&#x9;5.0&#x9;https://vulners.com/cve/CVE-2018-17199&#xa;    &#x9;CVE-2018-17189&#x9;5.0&#x9;https://vulners.com/cve/CVE-2018-17189&#xa;    &#x9;CVE-2018-1333&#x9;5.0&#x9;https://vulners.com/cve/CVE-2018-1333&#xa;    &#x9;CVE-2018-1303&#x9;5.0&#x9;https://vulners.com/cve/CVE-2018-1303&#xa;    &#x9;CVE-2017-15710&#x9;5.0&#x9;https://vulners.com/cve/CVE-2017-15710&#xa;    &#x9;CVE-2019-0197&#x9;4.9&#x9;https://vulners.com/cve/CVE-2019-0197&#xa;    &#x9;EDB-ID:47688&#x9;4.3&#x9;https://vulners.com/exploitdb/EDB-ID:47688&#x9;*EXPLOIT*&#xa;    &#x9;CVE-2020-11993&#x9;4.3&#x9;https://vulners.com/cve/CVE-2020-11993&#xa;    &#x9;CVE-2019-10092&#x9;4.3&#x9;https://vulners.com/cve/CVE-2019-10092&#xa;    &#x9;CVE-2018-1302&#x9;4.3&#x9;https://vulners.com/cve/CVE-2018-1302&#xa;    &#x9;CVE-2018-1301&#x9;4.3&#x9;https://vulners.com/cve/CVE-2018-1301&#xa;    &#x9;CVE-2018-11763&#x9;4.3&#x9;https://vulners.com/cve/CVE-2018-11763&#xa;    &#x9;1337DAY-ID-33575&#x9;4.3&#x9;https://vulners.com/zdt/1337DAY-ID-33575&#x9;*EXPLOIT*&#xa;    &#x9;CVE-2018-1283&#x9;3.5&#x9;https://vulners.com/cve/CVE-2018-1283&#xa;    &#x9;PACKETSTORM:152441&#x9;0.0&#x9;https://vulners.com/packetstorm/PACKETSTORM:152441&#x9;*EXPLOIT*&#xa;    &#x9;EDB-ID:46676&#x9;0.0&#x9;https://vulners.com/exploitdb/EDB-ID:46676&#x9;*EXPLOIT*&#xa;    &#x9;1337DAY-ID-663&#x9;0.0&#x9;https://vulners.com/zdt/1337DAY-ID-663&#x9;*EXPLOIT*&#xa;    &#x9;1337DAY-ID-601&#x9;0.0&#x9;https://vulners.com/zdt/1337DAY-ID-601&#x9;*EXPLOIT*&#xa;    &#x9;1337DAY-ID-4533&#x9;0.0&#x9;https://vulners.com/zdt/1337DAY-ID-4533&#x9;*EXPLOIT*&#xa;    &#x9;1337DAY-ID-3109&#x9;0.0&#x9;https://vulners.com/zdt/1337DAY-ID-3109&#x9;*EXPLOIT*&#xa;    &#x9;1337DAY-ID-2237&#x9;0.0&#x9;https://vulners.com/zdt/1337DAY-ID-2237&#x9;*EXPLOIT*"><table key="cpe:/a:apache:http_server:2.4.29">
+<table>
+<elem key="cvss">7.2</elem>
+<elem key="type">exploitpack</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB</elem>
+</table>
+<table>
+<elem key="cvss">7.2</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2019-0211</elem>
+</table>
+<table>
+<elem key="cvss">7.2</elem>
+<elem key="type">zdt</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">1337DAY-ID-32502</elem>
+</table>
+<table>
+<elem key="cvss">6.8</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2018-1312</elem>
+</table>
+<table>
+<elem key="cvss">6.8</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2017-15715</elem>
+</table>
+<table>
+<elem key="cvss">6.4</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2019-10082</elem>
+</table>
+<table>
+<elem key="cvss">6.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2019-0217</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">exploitdb</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">EDB-ID:47689</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2020-1927</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2019-10098</elem>
+</table>
+<table>
+<elem key="cvss">5.8</elem>
+<elem key="type">zdt</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">1337DAY-ID-33577</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2020-9490</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2020-1934</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2019-10081</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2019-0220</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2019-0196</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2018-17199</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2018-17189</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2018-1333</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2018-1303</elem>
+</table>
+<table>
+<elem key="cvss">5.0</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2017-15710</elem>
+</table>
+<table>
+<elem key="cvss">4.9</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2019-0197</elem>
+</table>
+<table>
+<elem key="cvss">4.3</elem>
+<elem key="type">exploitdb</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">EDB-ID:47688</elem>
+</table>
+<table>
+<elem key="cvss">4.3</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2020-11993</elem>
+</table>
+<table>
+<elem key="cvss">4.3</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2019-10092</elem>
+</table>
+<table>
+<elem key="cvss">4.3</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2018-1302</elem>
+</table>
+<table>
+<elem key="cvss">4.3</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2018-1301</elem>
+</table>
+<table>
+<elem key="cvss">4.3</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2018-11763</elem>
+</table>
+<table>
+<elem key="cvss">4.3</elem>
+<elem key="type">zdt</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">1337DAY-ID-33575</elem>
+</table>
+<table>
+<elem key="cvss">3.5</elem>
+<elem key="type">cve</elem>
+<elem key="is_exploit">false</elem>
+<elem key="id">CVE-2018-1283</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">packetstorm</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">PACKETSTORM:152441</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">exploitdb</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">EDB-ID:46676</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">zdt</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">1337DAY-ID-663</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">zdt</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">1337DAY-ID-601</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">zdt</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">1337DAY-ID-4533</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">zdt</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">1337DAY-ID-3109</elem>
+</table>
+<table>
+<elem key="cvss">0.0</elem>
+<elem key="type">zdt</elem>
+<elem key="is_exploit">true</elem>
+<elem key="id">1337DAY-ID-2237</elem>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="39"/><service name="ssl" product="Apache httpd" extrainfo="SSL-only mode" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service><script id="http-brute" output="  &#xa;  Path &quot;/&quot; does not require authentication"/><script id="http-chrono" output="Request times for /; avg: 1341.10ms; min: 1158.29ms; max: 1929.80ms"/><script id="http-comments-displayer" output="&#xa;Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=sectools.tw&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 147&#xa;    Comment: &#xa;        &lt;!-&#45; #masthead -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 146&#xa;    Comment: &#xa;        &lt;!-&#45; .mt-menu-search -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 40&#xa;    Comment: &#xa;        &lt;!-&#45; This site uses the Google Analytics by MonsterInsights plugin v7.17.0 - Using Analytics tracking - https://www.monsterinsights.com/ -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 2513&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 524&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-includes/js/masonry.min.js?ver=4.2.2&#xa;    Line number: 2&#xa;    Comment: &#xa;        /*!&#xa;         * Masonry PACKAGED v4.2.2&#xa;         * Cascading grid layout library&#xa;         * https://masonry.desandro.com&#xa;         * MIT License&#xa;         * by David DeSandro&#xa;         */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 332&#xa;    Comment: &#xa;        /* Make sure images are scaled correctly. */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1434&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 42&#xa;    Comment: &#xa;        &lt;!-&#45; No UA code set -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 114&#xa;    Comment: &#xa;        &lt;!-&#45; mt-container -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1064&#xa;    Comment: &#xa;        /* Theme Footer (when set to scrolling) */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1200&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 147&#xa;    Comment: &#xa;        &lt;!-&#45; .mt-social-search-wrapper -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 189&#xa;    Comment: &#xa;        &lt;!-&#45; .color-blog-dark-content-masonry -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 252&#xa;    Comment: &#xa;        /* ]]&gt; */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 123&#xa;    Comment: &#xa;        &lt;!-&#45; .logo-ads-wrap -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 190&#xa;    Comment: &#xa;        &lt;!-&#45; #main -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1490&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 34&#xa;    Comment: &#xa;        &lt;!-&#45; All in One SEO -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 224&#xa;    Comment: &#xa;        &lt;!-&#45; #secondary -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 610&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 170&#xa;    Comment: &#xa;        &lt;!-&#45; .entry-footer -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 93&#xa;    Comment: &#xa;        &lt;!-&#45; Analytics by WP-Statistics v13.0.8 - http://wp-statistics.com/ -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 548&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 224&#xa;    Comment: &#xa;        &lt;!-&#45; .mt-page-content-wrapper -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 159&#xa;    Comment: &#xa;        &lt;!-&#45; .entry-meta -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 241&#xa;    Comment: &#xa;        &lt;!-&#45; #page -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 587&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 191&#xa;    Comment: &#xa;        &lt;!-&#45; #primary -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-includes/js/imagesloaded.min.js?ver=4.1.4&#xa;    Line number: 1&#xa;    Comment: &#xa;        /*! This file is auto-generated */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 519&#xa;    Comment: &#xa;        /* Above WP toolbar */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 250&#xa;    Comment: &#xa;        /* &lt;![CDATA[ */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 114&#xa;    Comment: &#xa;        &lt;!-&#45; #top-header -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 240&#xa;    Comment: &#xa;        &lt;!-&#45; #colophon -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-includes/js/jquery/jquery.min.js?ver=3.5.1&#xa;    Line number: 1&#xa;    Comment: &#xa;        /*! jQuery v3.5.1 | (c) JS Foundation and other contributors | jquery.org/license */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 334&#xa;    Comment: &#xa;        /* Adhere to container width. */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1137&#xa;    Comment: &#xa;        /* Make sure embeds and iframes fit their containers */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 145&#xa;    Comment: &#xa;        &lt;!-&#45; .mt-form-wrap -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-includes/js/imagesloaded.min.js?ver=4.1.4&#xa;    Line number: 2&#xa;    Comment: &#xa;        /*!&#xa;         * imagesLoaded PACKAGED v4.1.4&#xa;         * JavaScript is all like &quot;You images are done yet or what?&quot;&#xa;         * MIT License&#xa;         */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2&#xa;    Line number: 1&#xa;    Comment: &#xa;        /*! jQuery Migrate v3.3.2 | (c) OpenJS Foundation and other contributors | jquery.org/license */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1146&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 2832&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 413&#xa;    Comment: &#xa;        /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 2720&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1841&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 239&#xa;    Comment: &#xa;        &lt;!-&#45; #bottom-footer -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1081&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1049&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 2605&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 928&#xa;    Comment: &#xa;        /*Comment Lists*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1070&#xa;    Comment: &#xa;        /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 817&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 147&#xa;    Comment: &#xa;        &lt;!-&#45;.mt-social-menu-wrapper -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 2640&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 2559&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 2293&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 47&#xa;    Comment: &#xa;        /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 231&#xa;    Comment: &#xa;        &lt;!-&#45; #footer-navigation -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 2074&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1725&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 147&#xa;    Comment: &#xa;        &lt;!-&#45;.mt-container -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 49&#xa;    Comment: &#xa;        /* Keeps page centered in all browsers regardless of content height */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 25&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 188&#xa;    Comment: &#xa;        &lt;!-&#45; #post-40 -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 2956&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1061&#xa;    Comment: &#xa;        /* Older / Newer Posts Navigation (always hidden) */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 63&#xa;    Comment: &#xa;        /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 880&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 595&#xa;    Comment: &#xa;        /* Make sure select elements fit in widgets */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 43&#xa;    Comment: &#xa;        &lt;!-&#45; / Google Analytics by MonsterInsights -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 493&#xa;    Comment: &#xa;        /* Text meant only for screen readers */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 8&#xa;    Comment: &#xa;        &lt;!-&#45; Global site tag (gtag.js) - Google Analytics -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 488&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 464&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 41&#xa;    Comment: &#xa;        &lt;!-&#45; Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 112&#xa;    Comment: &#xa;        &lt;!-&#45; #site-navigation -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 292&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 158&#xa;    Comment: &#xa;        &lt;!-&#45; .thumb-cat-wrap -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 51&#xa;    Comment: &#xa;        /* Prevents iOS text size adjust after orientation change, without disabling user zoom */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 61&#xa;    Comment: &#xa;        /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 19&#xa;    Comment: &#xa;        &lt;!-&#45; All in One SEO 4.1.0.1 -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 162&#xa;    Comment: &#xa;        &lt;!-&#45; .entry-header -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 188&#xa;    Comment: &#xa;        &lt;!-&#45; #mt-masonry -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1054&#xa;    Comment: &#xa;        /* Globally hidden elements when Infinite Scroll is supported and in use. */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 171&#xa;    Comment: &#xa;        &lt;!-&#45; #post-63 -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 237&#xa;    Comment: &#xa;        &lt;!-&#45; .site-info -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 147&#xa;    Comment: &#xa;        &lt;!-&#45;.mt-logo-row-wrapper -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 370&#xa;    Comment: &#xa;        /* Corrects font size not being inherited in all browsers */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 361&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 105&#xa;    Comment: &#xa;        &lt;!-&#45; .preloader-wrapper -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 453&#xa;    Comment: &#xa;        /* Removes default vertical scrollbar in IE6/7/8/9 */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 106&#xa;    Comment: &#xa;        &lt;!-&#45; #preloader-background -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 151&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 456&#xa;    Comment: &#xa;        /* Improves readability and alignment in all browsers */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 113&#xa;    Comment: &#xa;        &lt;!-&#45; .top-header-nav -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 166&#xa;    Comment: &#xa;        &lt;!-&#45; .entry-content -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 372&#xa;    Comment: &#xa;        /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 59&#xa;    Comment: &#xa;        /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 53&#xa;    Comment: &#xa;        /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 226&#xa;    Comment: &#xa;        &lt;!-&#45; #content -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 238&#xa;    Comment: &#xa;        &lt;!-&#45; .mt-container -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1369&#xa;    Comment: &#xa;        &#xa;        &#xa;        -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/&#xa;    &#xa;    Path: https://sectools.tw:443/wp-content/themes/color-blog-dark/style.css?ver=1.0.1&#xa;    Line number: 1&#xa;    Comment: &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        */&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 158&#xa;    Comment: &#xa;        &lt;!-&#45; .post-cats-list -&#45;&gt;&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Line number: 119&#xa;    Comment: &#xa;        &lt;!-&#45; .site-branding -&#45;&gt;&#xa;"/><script id="http-csrf" output="&#xa;Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=sectools.tw&#xa;  Found the following possible CSRF vulnerabilities: &#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Form id: &#xa;    Form action: https://sectools.tw/&#xa;    &#xa;    Path: https://sectools.tw:443/&#xa;    Form id: &#xa;    Form action: https://sectools.tw/&#xa;"/><script id="http-date" output="Tue, 27 Apr 2021 07:10:49 GMT; -2s from local time."><elem key="date">2021-04-27T07:10:49+00:00</elem>
+<elem key="delta">-2.0</elem>
+</script><script id="http-devframework" output="Couldn&apos;t determine the underlying framework or CMS. Try increasing &apos;httpspider.maxpagecount&apos; value to spider more pages."/><script id="http-dombased-xss" output="Couldn&apos;t find any DOM based XSS."/><script id="http-drupal-enum" output="Nothing found amongst the top 100 resources,use -&#45;script-args number=&lt;number|all&gt; for deeper analysis)"/><script id="http-enum" output="&#xa;  /wp-login.php: Possible admin folder&#xa;  /readme.html: Wordpress version: 2 &#xa;  /: WordPress version: 5.7.1&#xa;  /wp-includes/images/rss.png: Wordpress version 2.2 found.&#xa;  /wp-includes/js/jquery/suggest.js: Wordpress version 2.5 found.&#xa;  /wp-includes/images/blank.gif: Wordpress version 2.6 found.&#xa;  /wp-includes/js/comment-reply.js: Wordpress version 2.7 found.&#xa;  /wp-login.php: Wordpress login page.&#xa;  /wp-admin/upgrade.php: Wordpress login page.&#xa;  /readme.html: Interesting, a readme.&#xa;"/><script id="http-errors" output="&#xa;Spidering limited to: maxpagecount=40; withinhost=sectools.tw&#xa;  Found the following error pages: &#xa;  &#xa;  Error Code: 404&#xa;  &#x9;https://sectools.tw:443/wp-includes/js/jquery/r.href,v.crossDomain=Wt.protocol+%22/%22+Wt.host!=r.protocol+%22/%22+r.host%7dcatch(e)%7bv.crossDomain=!0%7d%7dif(v.data&amp;&amp;v.processData&amp;&amp;%22string%22!=typeof&#xa;  &#xa;  Error Code: 404&#xa;  &#x9;https://sectools.tw:443/wp-content/themes/color-blog-dark/assets/js/this.url;var&#xa;  &#xa;  Error Code: 404&#xa;  &#x9;https://sectools.tw:443/wp-includes/js/t.value%7d%7d%7d,e)c.addEventListener(%22message%22,c.wp.receiveEmbedMessage,!1),d.addEventListener(%22DOMContentLoaded%22,t,!1),c.addEventListener(%22load%22,t,!1);function&#xa;"/><script id="http-feed" output="Couldn&apos;t find any feeds."/><script id="http-fetch" output="Please enter the complete path of the directory to save data in."><elem key="ERROR">Please enter the complete path of the directory to save data in.</elem>
+</script><script id="http-headers" output="&#xa;  Date: Tue, 27 Apr 2021 07:10:47 GMT&#xa;  Server: Apache/2.4.29 (Ubuntu)&#xa;  Link: &lt;https://sectools.tw/index.php?rest_route=/&gt;; rel=&quot;https://api.w.org/&quot;&#xa;  Connection: close&#xa;  Content-Type: text/html; charset=UTF-8&#xa;  &#xa;  (Request type: HEAD)&#xa;"/><script id="http-jsonp-detection" output="Couldn&apos;t find any JSONP endpoints."/><script id="http-litespeed-sourcecode-download" output="Request with null byte did not work. This web server might not be vulnerable"/><script id="http-malware-host" output="Host appears to be clean"/><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-mobileversion-checker" output="Found mobile version: https://sectools.tw/ (Redirected to a different host)"/><script id="http-php-version" output="Logo query returned unknown hash 8610203b98a3279835221c58f7df35d1&#xa;Credits query returned unknown hash 8610203b98a3279835221c58f7df35d1"/><script id="http-referer-checker" output="Couldn&apos;t find any cross-domain scripts."/><script id="http-security-headers" output="&#xa;  Strict_Transport_Security: &#xa;    HSTS not configured in HTTPS Server"><table key="Strict_Transport_Security">
+<elem>HSTS not configured in HTTPS Server</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.29 (Ubuntu)"><elem>Apache/2.4.29 (Ubuntu)</elem>
+</script><script id="http-sitemap-generator" output="&#xa;  Directory structure:&#xa;  Longest directory structure:&#xa;    Depth: 0&#xa;    Dir: /&#xa;  Total files found (by extension):&#xa;    &#xa;"/><script id="http-slowloris" output="false">false</script><script id="http-stored-xss" output="Couldn&apos;t find any stored XSS vulnerabilities."/><script id="http-title" output="400 Bad Request"><elem key="title">400 Bad Request</elem>
+</script><script id="http-useragent-tester" output="&#xa;  Status for browser useragent: 200&#xa;  Allowed User Agents: &#xa;    Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)&#xa;    libwww&#xa;    libcurl-agent/1.0&#xa;    PHP/&#xa;    Python-urllib/2.5&#xa;    GT::WWW&#xa;    Snoopy&#xa;    MFC_Tear_Sample&#xa;    HTTP::Lite&#xa;    PHPCrawl&#xa;    URI::Fetch&#xa;    Zend_Http_Client&#xa;    http client&#xa;    PECL::HTTP&#xa;    Wget/1.13.4 (linux-gnu)&#xa;    WWW-Mechanize/1.34&#xa;  Change in Status Code: &#xa;    lwp-trivial: 400"><elem key="Status for browser useragent">200</elem>
+<table key="Allowed User Agents">
+<elem>Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)</elem>
+<elem>libwww</elem>
+<elem>libcurl-agent/1.0</elem>
+<elem>PHP/</elem>
+<elem>Python-urllib/2.5</elem>
+<elem>GT::WWW</elem>
+<elem>Snoopy</elem>
+<elem>MFC_Tear_Sample</elem>
+<elem>HTTP::Lite</elem>
+<elem>PHPCrawl</elem>
+<elem>URI::Fetch</elem>
+<elem>Zend_Http_Client</elem>
+<elem>http client</elem>
+<elem>PECL::HTTP</elem>
+<elem>Wget/1.13.4 (linux-gnu)</elem>
+<elem>WWW-Mechanize/1.34</elem>
+</table>
+<table key="Change in Status Code">
+<elem key="lwp-trivial">400</elem>
+</table>
+</script><script id="http-vhosts" output="&#xa;124 names had status 200&#xa;dmz.tw : 400&#xa;ldap.tw : 400&#xa;webftp.tw : 400&#xa;dns.tw : 400"/><script id="http-waf-detect" output="IDS/IPS/WAF detected:&#xa;sectools.tw:443/?p4yl04d3=&lt;script&gt;alert(document.cookie)&lt;/script&gt;"/><script id="http-wordpress-brute" output="&#xa;  Accounts: No valid accounts found&#xa;  Statistics: Performed 0 guesses in 1 seconds, average tps: 0.0"><elem key="Accounts">No valid accounts found</elem>
+<elem key="Statistics">Performed 0 guesses in 1 seconds, average tps: 0.0</elem>
+</script><script id="http-wordpress-enum" output="&#xa;Search limited to top 100 themes/plugins&#xa;  plugins&#xa;    akismet 4.1.9&#xa;    all-in-one-seo-pack 4.1.0.1&#xa;    google-analytics-for-wordpress 7.17.0&#xa;    wp-statistics 13.0.8&#xa;"><table key="akismet">
+<elem key="category">plugins</elem>
+<elem key="installation_version">4.1.9</elem>
+<elem key="path">/wp-content/plugins/akismet/</elem>
+<elem key="name">akismet</elem>
+</table>
+<table key="all-in-one-seo-pack">
+<elem key="category">plugins</elem>
+<elem key="installation_version">4.1.0.1</elem>
+<elem key="path">/wp-content/plugins/all-in-one-seo-pack/</elem>
+<elem key="name">all-in-one-seo-pack</elem>
+</table>
+<table key="google-analytics-for-wordpress">
+<elem key="category">plugins</elem>
+<elem key="installation_version">7.17.0</elem>
+<elem key="path">/wp-content/plugins/google-analytics-for-wordpress/</elem>
+<elem key="name">google-analytics-for-wordpress</elem>
+</table>
+<table key="wp-statistics">
+<elem key="category">plugins</elem>
+<elem key="installation_version">13.0.8</elem>
+<elem key="path">/wp-content/plugins/wp-statistics/</elem>
+<elem key="name">wp-statistics</elem>
+</table>
+<elem key="title">Search limited to top 100 themes/plugins</elem>
+</script><script id="http-xssed" output="No previously reported XSS vuln."/></port>
+<port protocol="tcp" portid="1720"><state state="open" reason="syn-ack" reason_ttl="255"/><service name="h323q931" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+</os>
+<uptime seconds="2185901" lastboot="Thu Apr  1 20:00:25 2021"/>
+<distance value="1"/>
+<tcpsequence index="262" difficulty="Good luck!" values="4772EC28,AF78C4BB,94E53F54,B9D7D468,BBE13E7F,6597E2B2"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="8210FBD0,8210FC34,8210FC9D,8210FD00,8210FD62,8210FDC8"/>
+<hostscript><script id="hostmap-crtsh" output="&#xa;  subdomains: &#xa;    sectools.tw"><table key="subdomains">
+<elem>sectools.tw</elem>
+</table>
+</script></hostscript><trace port="1720" proto="tcp">
+<hop ttl="1" ipaddr="20.96.178.140" rtt="2.83"/>
+</trace>
+<times srtt="124634" rttvar="111676" to="571338"/>
+</host>
+<taskbegin task="NSE" time="1619507526"/>
+<taskend task="NSE" time="1619507526"/>
+<taskbegin task="NSE" time="1619507526"/>
+<taskend task="NSE" time="1619507526"/>
+<runstats><finished time="1619507526" timestr="Tue Apr 27 03:12:06 2021" summary="Nmap done at Tue Apr 27 03:12:06 2021; 1 IP address (1 host up) scanned in 3932.98 seconds" elapsed="3932.98" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
